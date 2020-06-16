@@ -1,0 +1,22 @@
+
+.part{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+}
+.left{
+    left: 0;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.right{
+    right: 0;
+    text-align: left;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
