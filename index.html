@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WeatherApp></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="left part">
+            <div class="centered">
+                <h1 class="appTitle">Weather Application</h1>
+            </div>
+        </div>
+        <div class="right part">
+            <div class="centered">
+                <h1 id="city">Please select the city</h1>
+                <h2 id="Latitude">Latitude</h2>
+                <h2 id="Longitude">Longitude</h2>
+                <h2 id="precipitation">Precipitation</h2>
+                <p id="dateAndTime">date</p>
+                <h1 id="climate">Climate condition</h1>
+                <h2 id="temp">Temperature</h2> -->
+                <button class="cel" onclick="getCelsius()">&#8451</button>
+                <button class="fah" onclick="getFahrenheit()">&#8457</button><br>
+                <!-- <label for="list">Select the city</select></label>
+                <select id="list">
+                    <option value="Hyderabad,Telangana">Hyderabad,Telangana</option>
+                    <option value="Bhopal,MadhyaPradesh">Bhopal,MadhyaPradesh</option>
+                    <option value="Imphal,Manipur">Imphal,Manipur</option>
+                    <option value="Agarthala,Tripura">Agarthala,Tripura</option>
+                    <option value="Kohima,Nagaland">Kohima,Nagaland</option>
+                    <option value="Chennai,TamilNadu">Chennai,TamilNadu</option>
+                    <option value="Bengalore,Karnataka">Bengalore,Karnataka</option>
+                    <option value="Mumbai,Maharashtra">Mumbai,Maharashtra</option>
+                </select>
+                <input type="button" value="submit" onclick="getWeather()"> -->
+                <form>
+                    <textarea id="myTextArea"></textarea>
+                    <input type="button" value="submit" onclick="getWeather()">
+                </form>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+    </html>
