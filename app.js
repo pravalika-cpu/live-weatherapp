@@ -1,8 +1,3 @@
-var daysInWeek=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-var day=date.getDay()
-var today=daysInWeek[day]
-var hours=date.getHours()
-var minutes=date.getMinutes()
 var date = new Date()
 var daysInWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 var day = date.getDay()
